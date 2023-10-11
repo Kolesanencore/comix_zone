@@ -65,11 +65,10 @@ Error generating stack: `+o.message+`
   --horizontal-padding: 32px;
 
   /* Shadows and Borders */
-  --box-shadow-hero: rgba(255, 107, 1, 0) 0px 2px 8px,
-      rgba(255, 255, 255, 0.3) 0px 1px inset,
-      rgba(255, 255, 255, 0.2) 0px 10px inset,
-      rgba(255, 255, 255, 0.25) 0px 10px 20px inset,
-      rgba(130, 11, 5, 0.3) 0px -15px 30px inset;
+  --box-shadow-glass:  0 2px 8px rgba(90, 38, 232, 0.5),
+    inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2),
+    inset 0 10px 20px rgba(255, 255, 255, 0.25),
+    inset 0 -15px 30px rgba(76, 8, 135, 0.3);
 
   --btn-border-radius: 100px;
 
