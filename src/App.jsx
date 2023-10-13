@@ -1,12 +1,12 @@
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import CharCard from './components/CharCard/CharCard';
+import VerticalSlider from './components/CharSlider/CharSlider';
 
 function App() {
   return (
     <>
       <Header />
-      <CharCard />
+      <VerticalSlider />
       <Footer />
     </>
   );
