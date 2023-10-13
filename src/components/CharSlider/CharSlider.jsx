@@ -12,6 +12,9 @@ import {
   DotsContainer,
 } from './CharSlider.styled';
 
+import useSound from 'use-sound';
+import slideSoundFile from '/click1.mp3';
+
 import spider from '../../images/spider-card.png';
 import spiderMain from '../../images/spider-card-right.png';
 import red from '../../images/spider-red-ellipse.png';
@@ -27,6 +30,8 @@ import violet from '../../images/panther-violet-ellipse.png';
 const CharSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  const [playSlideSound] = useSound(slideSoundFile, { volume: 0.1 });
+
   const dotColors = ['#600404', '#5B7F3C', '#34387F'];
 
   const settings = {
@@ -39,7 +44,7 @@ const CharSlider = () => {
     arrows: false,
     beforeChange: (current, next) => {
       setCurrentSlide(next);
-      // playSlideSound();
+      playSlideSound();
     },
     appendDots: dots => <CustomDotsContainer>{dots}</CustomDotsContainer>,
     customPaging: function (i) {
