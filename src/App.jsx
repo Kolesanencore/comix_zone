@@ -1,13 +1,9 @@
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import VerticalSlider from './components/CharSlider/CharSlider';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <>
-      <Header />
-      <VerticalSlider />
-      <Footer />
+      <HomePage />
     </>
   );
 }
