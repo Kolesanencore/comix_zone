@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const TitleWrapper = styled.div`
@@ -26,7 +27,7 @@ export const TitleDescription = styled.p`
   line-height: 18px;
 `;
 
-export const TitleBtn = styled.a`
+export const TitleBtn = styled(NavLink)`
   width: fit-content;
 
   padding: 12px 24px;

@@ -1,5 +1,7 @@
 import SocialLinks from '../SocialLinks/SocialLinks';
 
+import Logo from '../Logo/Logo';
+
 import {
   FooterTitle,
   FooterWrapper,
@@ -12,6 +14,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <NavContainer>
+        <Logo />
         <FooterTitle>Comics</FooterTitle>
         <SocialLinks />
       </NavContainer>

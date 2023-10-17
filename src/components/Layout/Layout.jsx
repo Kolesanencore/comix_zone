@@ -11,13 +11,13 @@ const Layout = () => {
       <Container>
         <Header />
       </Container>
-      <main>
-        <Container>
-          <Suspense fallback={<div>Loading page...</div>}>
-            <Outlet />
-          </Suspense>
-        </Container>
-      </main>
+      {/* <main> */}
+      <Container>
+        <Suspense fallback={<div>Loading page...</div>}>
+          <Outlet />
+        </Suspense>
+      </Container>
+      {/* </main> */}
     </>
   );
 };
