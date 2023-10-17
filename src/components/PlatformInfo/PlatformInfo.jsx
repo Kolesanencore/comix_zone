@@ -18,7 +18,7 @@ const PlatformInfo = () => {
         Characters and Comics sections and discover your new favorites today.
       </TitleDescription>
 
-      <TitleBtn>All Comics</TitleBtn>
+      <TitleBtn to="/comics">All Comics</TitleBtn>
     </TitleWrapper>
   );
 };

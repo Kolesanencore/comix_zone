@@ -1,9 +1,12 @@
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Logo = () => {
   return (
     <>
-      <img src={logo} alt="Logo" />
+      <NavLink to="/">
+        <img src={logo} alt="Logo" />
+      </NavLink>
     </>
   );
 };

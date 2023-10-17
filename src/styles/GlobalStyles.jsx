@@ -70,6 +70,10 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
     width: fit-content;
   }
+
+  a {
+    text-decoration: none;
+  }
   
 `;
 

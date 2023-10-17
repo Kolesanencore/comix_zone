@@ -1,9 +1,19 @@
-import HomePage from './pages/HomePage';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
-function App() {
+import Layout from './components/Layout/Layout';
+import HomePage from './pages/HomePage';
+import ComicsPage from './pages/ComicsPage';
+
+export function App() {
   return (
     <>
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="comics" element={<ComicsPage />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Route>
+      </Routes>
     </>
   );
 }
