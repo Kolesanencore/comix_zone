@@ -1,17 +1,20 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const TitleWrapper = styled.div`
-  width: 538px;
+export const InfoWrapper = styled.div`
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
 
+  margin-right: 158px;
+
+  padding: 210px 0 0px 0;
+`;
+
+export const TitleWrapper = styled.div`
   gap: 16px;
   display: flex;
   flex-direction: column;
-
-  padding-top: 150px;
-  padding-bottom: 185px;
-
-  margin-right: 134px;
 `;
 
 export const Title = styled.h1`
@@ -21,6 +24,8 @@ export const Title = styled.h1`
 `;
 
 export const TitleDescription = styled.p`
+  /* width: 464px; */
+
   color: var(--text-primary);
 
   font-size: 16px;
@@ -48,7 +53,7 @@ export const TitleBtn = styled(NavLink)`
 `;
 
 export const TitleCaption = styled.h2`
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-family: inherit;
   font-size: 18px;
 
