@@ -4,9 +4,8 @@ export const SectionHero = styled.div`
   display: flex;
 
   position: relative;
-  padding-right: 32px;
-  padding-left: 32px;
-  /* top: -57px; */
+
+  padding: 0 32px 38px 32px;
 `;
 
 export const Dot = styled.div`
