@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import { ComicImage, ComicTitle, ComicsItem } from './ComicList.styled';
 
 const ComicItem = ({ comic }) => {
@@ -18,7 +19,7 @@ ComicItem.propTypes = {
   comic: PropTypes.shape({
     id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
-    prices: PropTypes.number.isRequired,
+    // prices: PropTypes.number.isRequired,
     thumbnail: PropTypes.shape({
       path: PropTypes.string.isRequired,
       extension: PropTypes.string.isRequired,
