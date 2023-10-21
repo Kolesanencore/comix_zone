@@ -6,6 +6,7 @@ import {
   InfoWrapper,
   TitleBtn,
 } from '../components/PlatformInfo/PlatformInfo.styled';
+import ComicSlider from '../components/ComicSlider/ComicSlider';
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         </InfoWrapper>
         <CharSlider />
       </SectionHero>
+      <ComicSlider />
     </>
   );
 };
