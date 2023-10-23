@@ -1,11 +1,11 @@
+import ComicsGallery from '../components/ComicsList/ComicsGallery';
 import ComixPageHero from '../components/ComixPageHero/ComixPageHero';
-import Footer from '../components/Footer/Footer';
 
 const ComicsPage = () => {
   return (
     <>
       <ComixPageHero />
-      <Footer />
+      <ComicsGallery />
     </>
   );
 };

@@ -5,11 +5,11 @@ import { ComicImage, ComicTitle, ComicsItem } from './ComicList.styled';
 const ComicItem = ({ comic }) => {
   return (
     <ComicsItem key={comic.id}>
-      <ComicTitle>{comic.title}</ComicTitle>
       <ComicImage
         src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`}
         alt={comic.title}
       />
+      <ComicTitle>{comic.title}</ComicTitle>
       {/* <ComicPrice>Price: ${comic.prices[0].price}</ComicPrice> */}
     </ComicsItem>
   );

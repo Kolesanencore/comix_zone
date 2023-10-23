@@ -47,4 +47,6 @@ export const ComicsList = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   gap: 20px;
+
+  padding: 0 32px;
 `;

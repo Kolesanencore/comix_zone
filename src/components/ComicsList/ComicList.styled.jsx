@@ -8,30 +8,29 @@ export const ComicsWrapper = styled.div`
   padding-top: 70px;
   padding-bottom: 70px;
 `;
-
 export const ComicList = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   gap: 20px;
 `;
 
-export const ComicImage = styled.img`
-  height: 100%;
+export const ComicsItem = styled.li`
   width: 100%;
-
-  border: 1px solid #ccc;
+  height: auto;
 `;
 
-export const ComicsItem = styled.li`
-  height: 100%;
-  width: 100%;
+export const ComicImage = styled.img`
+  max-width: 100%;
+  height: 530px;
 `;
 
 export const ComicTitle = styled.h2`
+  font-size: 12px;
   margin-top: 10px;
+
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 16px;
+  text-align: center;
 `;
 
 // const ComicPrice = styled.h2`
