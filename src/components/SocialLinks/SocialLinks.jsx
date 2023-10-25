@@ -1,6 +1,7 @@
 import { BiLogoFacebook } from 'react-icons/bi';
 import { BsInstagram } from 'react-icons/bs';
 import { FiTwitter } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 
 import {
   SocialsList,
@@ -12,6 +13,19 @@ import {
 const SocialLinks = () => {
   return (
     <SocialsList>
+      <SocialsItem>
+        <SocialsLink
+          href="https://github.com/Kolesanencore"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconWrapper>
+            <AiFillGithub />
+          </IconWrapper>
+        </SocialsLink>
+      </SocialsItem>
+
       <SocialsItem>
         <SocialsLink
           href="https://facebook.com/"

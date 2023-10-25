@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SocialsList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
 `;
 
 export const SocialsItem = styled.li``;
