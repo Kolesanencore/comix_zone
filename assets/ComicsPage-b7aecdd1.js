@@ -1,4 +1,4 @@
-import{s as o,b as p,j as t,r as i,L as C,C as j,d as k,N as y}from"./index-38da2961.js";import{P as L,g as w,C as v,a as P}from"./ComicItem-5cc8bdef.js";const M=o.button`
+import{s as o,b as p,j as t,r as i,L as C,C as j,d as k,N as y}from"./index-c4e4b2dc.js";import{P as L,g as w,C as v,a as P}from"./ComicItem-dcaf1cb7.js";const M=o.button`
   background: transparent;
   border-radius: 8px;
   border: none;
